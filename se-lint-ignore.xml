@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-14.xhtml">
+		<ignore code="t-003">
+			<line>459</line>
+			<reason>Match is dialogue continued on next line.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
