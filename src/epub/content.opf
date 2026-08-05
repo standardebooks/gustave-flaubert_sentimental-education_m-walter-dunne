@@ -30,6 +30,13 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Sentimental Education</dc:title>
 		<meta property="file-as" refines="#title">Sentimental Education</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Or, The History of a Young Man</dc:title>
+		<meta property="file-as" refines="#subtitle">Or, The History of a Young Man</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Sentimental Education; Or, The History of a Young Man</dc:title>
+		<meta property="file-as" refines="#fulltitle">Yama</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Married women -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008107257</meta>
@@ -48,14 +55,16 @@
 		<dc:subject id="subject-6">Paris (France) -- History -- June Days, 1848 -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
-		<meta property="schema:genre">TAG</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:abstract">DESCRIPTION</meta>
 		<dc:description>
 			LONG_DESCRIPTION
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/34828</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/27537</dc:source>
+		<dc:source>https://www.google.com/books/edition/The_Complete_Works_of_Gustave_Flaubert_S/JFsL-qyqOFMC</dc:source>
+		<dc:source>https://www.google.com/books/edition/Sentimental_education_or_The_history_of/gyIiHmyYafUC</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/Sentimental_Education" rel="schema:sameAs"/>
@@ -65,35 +74,35 @@
 		<dc:creator id="author">Gustave Flaubert</dc:creator>
 		<meta property="file-as" refines="#author">Flaubert, Gustave</meta>
 		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<link href="https://en.wikipedia.org/wiki/Gustave_Flaubert" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79059896.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">M. Walter Dunne</dc:contributor>
 		<meta property="file-as" refines="#translator">Dunne, M. Walter</meta>
-		<meta property="schema:alternateName" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<link href="CONTRIBUTOR_WIKI_URL" refines="#translator" rel="schema:sameAs"/>
-		<link href="CONTRIBUTOR_NACOAF_URI" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
 		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">David Edwards</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Edwards, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
+		<dc:contributor id="transcriber-3">Thierry Alberto</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Alberto, Thierry</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-4">Meredith Bach</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Bach, Meredith</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-5" rel="schema:url"/>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
