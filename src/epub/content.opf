@@ -75,9 +75,11 @@
 		<meta property="file-as" refines="#author">Flaubert, Gustave</meta>
 		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://id.loc.gov/authorities/names/n79059896.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">M. Walter Dunne</dc:contributor>
 		<meta property="file-as" refines="#translator">Dunne, M. Walter</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
