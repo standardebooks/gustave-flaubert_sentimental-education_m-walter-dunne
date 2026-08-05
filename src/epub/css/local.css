@@ -31,3 +31,8 @@ p span.i1{
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }
+
+#chapter-3 blockquote{
+	font-variant: small-caps;
+	text-align: center;
+}
