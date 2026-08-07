@@ -76,7 +76,6 @@
 		<link href="https://github.com/standardebooks/gustave-flaubert_sentimental-education_m-walter-dunne" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Gustave Flaubert</dc:creator>
 		<meta property="file-as" refines="#author">Flaubert, Gustave</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://id.loc.gov/authorities/names/n79059896.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -84,10 +83,10 @@
 		<meta property="file-as" refines="#translator">Dunne, M. Walter</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="artist">Édouard Manet</dc:contributor>
+		<meta property="file-as" refines="#artist">Manet, Édouard</meta>
+		<link href="https://en.wikipedia.org/wiki/%C3%89douard_Manet" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79043160.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Edwards</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Edwards, David</meta>
