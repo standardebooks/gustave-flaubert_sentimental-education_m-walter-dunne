@@ -37,22 +37,22 @@
 		<dc:title id="fulltitle">Sentimental Education; Or, The History of a Young Man</dc:title>
 		<meta property="file-as" refines="#fulltitle">Yama</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">Married women -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Married women--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008107257</meta>
-		<dc:subject id="subject-2">Young men -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Young men--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008114024</meta>
-		<dc:subject id="subject-3">Paris (France) -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Paris (France)--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008109262</meta>
-		<dc:subject id="subject-4">France -- History -- February Revolution, 1848 -- Fiction</dc:subject>
+		<dc:subject id="subject-4">France--History--February Revolution, 1848--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
-		<dc:subject id="subject-5">Unrequited love -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Unrequited love--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2010117503</meta>
-		<dc:subject id="subject-6">Paris (France) -- History -- June Days, 1848 -- Fiction</dc:subject>
+		<dc:subject id="subject-6">Paris (France)--History--June Days, 1848--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
