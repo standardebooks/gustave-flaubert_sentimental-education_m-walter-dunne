@@ -6,4 +6,10 @@
 			<reason>Match is dialogue continued on next line.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-17.xhtml">
+		<ignore code="y-026">
+			<line>117</line>
+			<reason>Match is heraldry.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
